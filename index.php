@@ -1,11 +1,16 @@
 <html>
 <head>
 <title>PIManager</title>
-<?php include 'command.php';?>
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="script.js"></script>
 </head>
 <body>
-<form action="command.php">
-    <input type="submit" name="reboot" value="select" onclick="reboot_pi()" />
-</form>
+
+<button onclick="reboot_pi()">Reboot</button>
+<div id="output">waiting for action</div>
+
+</body>
+</html>
 
 
