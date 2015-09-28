@@ -1,7 +1,7 @@
 <html>
 <head>
 <title>PIManager</title>
-<?php include 'footer.php';?>
+<?php include 'command.php';?>
 </head>
 <body>
 <form action="command.php">
