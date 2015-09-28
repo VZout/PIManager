@@ -9,7 +9,7 @@
 
 <button onclick="reboot_pi()">Reboot</button>
 <div id="output">waiting for action</div>
-<a href="/cgi-bin/reboot.sh">
+<a href="/cgi-bin/reboot.sh"><Reboot/a>
 
 </body>
 </html>
