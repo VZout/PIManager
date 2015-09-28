@@ -1,4 +1,4 @@
 <?php
-  system ( "sudo reboot" );
+  system ( "sudo service apache2 restart" );
   echo 'hello world!';
 ?>
